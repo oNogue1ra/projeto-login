@@ -3,3 +3,27 @@
 /*  Paleta de cores 
     Verde: #49a09d
     Lilás: #5f2c82 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, main {
+    background-color: #5f2c82;
+    min-height: 98vh;
+    min-width: 97vw;
+}
+main {
+    display: flex;
+}
+
+section  {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    /* display: block; */
+    height: 450px;
+    width: 250px;
+}
