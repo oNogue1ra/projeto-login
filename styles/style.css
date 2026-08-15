@@ -16,14 +16,24 @@ body, main {
     min-width: 97vw;
 }
 main {
-    display: flex;
+    position: relative;
 }
 
 section  {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     border: 1px solid black;
     border-radius: 10px;
-    margin: auto;
-    /* display: block; */
-    height: 450px;
-    width: 250px;
+    height: 90vh;
+    max-width: 350px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+div#imagem {
+    background-image: url(../images/metal.jpg);
+    background-size: cover;
+    height: 40%;
 }
