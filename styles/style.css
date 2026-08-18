@@ -11,7 +11,7 @@
 }
 
 body, main {
-    background-color: #5f2c82;
+    background-image: linear-gradient(#5f2c82, #49a09d);
     min-height: 98vh;
     min-width: 97vw;
 }
@@ -25,9 +25,9 @@ section  {
     top: 50%;
     left: 50%;
     border: 1px solid black;
-    border-radius: 10px;
-    height: 90vh;
-    max-width: 350px;
+    border-radius: 20px;
+    height: 515px;
+    width: 250px;
     /* margin-top: 10px;
     margin-bottom: 10px; */
 }
@@ -36,4 +36,44 @@ div#imagem {
     background-image: url(../images/metal.jpg);
     background-size: cover;
     height: 40%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+div#formulario {
+    background-color: white;
+    border: 1px solid black;
+    height: 60%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+}
+
+div#formulario > p {
+    text-align: center;
+}
+
+form > .box {
+    background-color: #5f2c82;
+    display: block;
+    align-items: center;
+    border: 1px solid black;
+    padding: ;
+    margin: 10px;
+    /* height: 10px;
+    width: 10px ; */
+}
+
+form > label {
+    background-color: #5f2c82;
+}
+
+form > .resp {
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+
 }
