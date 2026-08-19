@@ -46,6 +46,7 @@ div#formulario {
     height: 60%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 4px;
 }
 
 div#formulario > h1 {
@@ -56,24 +57,41 @@ div#formulario > p {
     text-align: center;
 }
 
-form > .box {
+form > .resp {
     background-color: #5f2c82;
-    display: block;
+    /* display: block; */
     align-items: center;
     border: 1px solid black;
-    padding: ;
-    margin: 10px;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 2px;
     /* height: 10px;
     width: 10px ; */
 }
 
-form > label {
-    background-color: #5f2c82;
+#mail {
+    color: white;
 }
 
-form > .resp {
-    display: flex;
-    margin: 2px;
-    padding: 5px;
-
+#chave {
+    color: white;
 }
+
+#iemail {
+    background-color: #49a09d;
+    padding: 4px 11px 4px 4px;
+    border-radius: 8px;
+}
+
+#isenha {
+    background-color: #49a09d;
+    padding: 4px 11px 4px 4px;
+    border-radius: 8px;
+}
+
+#box {
+    background-color: #49a09d;
+    padding: 4px 11px 4px 4px;
+    border-radius: 8px;
+}
+

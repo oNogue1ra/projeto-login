@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vpn_key" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -16,17 +18,20 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="get">
                     <div class="resp">
-                        <p class="box" ><label for="iemail">Email:</label> <input type="email"  name="email" id="iemail" placeholder="seu e-mail"></p>
+                        
+                        <p >
+                            <span id="mail" class="material-symbols-outlined"> mail </span>
+                            <input type="email"  name="email" id="iemail" placeholder="seu e-mail"></p>
                     </div>
 
                     <div class="resp">
-                        <p class="box" ><label for="isenha">Senha:</label> <input type="password"  name="senha" id="isenha" placeholder="sua senha"></p>
+                        <p><label for="isenha"><span id="chave" class="material-symbols-outlined"> vpn_key</span></label> 
+                    <input type="password"  name="senha" id="isenha" placeholder="sua senha"></p>
                     </div>
 
-                    <p class="box" ><input type="submit" class="resp" value="Entrar"></p>
-                    <p></p>
+                    <input type="submit" id="box" class="resp" value="Entrar">               
 
-                    <p class="box" ><a href="#">Esqueci a senha</a></p>
+                    <p id="senha" ><a href="#">Esqueci a senha</a></p>
                 </form>
             </div>
         </section>
