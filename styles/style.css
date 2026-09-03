@@ -8,6 +8,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body, main {
@@ -64,9 +65,11 @@ form > .resp {
     border: 1px solid black;
     border-radius: 8px;
     padding: 2px;
-    margin: 2px;
-    /* height: 10px;
-    width: 10px ; */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100% ;
 }
 
 #mail {
@@ -78,20 +81,38 @@ form > .resp {
 }
 
 #iemail {
-    background-color: #49a09d;
+    background-color: #63d7d3ca;
     padding: 4px 11px 4px 4px;
     border-radius: 8px;
 }
 
 #isenha {
-    background-color: #49a09d;
+    background-color: #63d7d3ca;
     padding: 4px 11px 4px 4px;
     border-radius: 8px;
 }
 
 #box {
     background-color: #49a09d;
-    padding: 4px 11px 4px 4px;
     border-radius: 8px;
+    margin: auto; 
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100% ;
 }
 
+#senha {
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 8px;
+    margin: auto; 
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100% ;
+    display: flex;
+}
+
+#esq {
+    color: #1d7c79;
+    margin: auto;
+}
