@@ -43,7 +43,7 @@ div#imagem {
 
 div#formulario {
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 60%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -60,7 +60,7 @@ div#formulario > p {
 
 form > .resp {
     background-color: #5f2c82;
-    /* display: block; */
+    /* display: flex; */
     align-items: center;
     border: 1px solid black;
     border-radius: 8px;
@@ -70,6 +70,9 @@ form > .resp {
     margin-bottom: 5px;
     height: 35px;
     width: 100% ;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    /* align-items: center; */
 }
 
 #mail {
@@ -81,8 +84,7 @@ form > .resp {
 }
 
 #iemail {
-    background-color: #63d7d3ca;
-    padding: 4px 11px 4px 4px;
+    background-color: #63d7d3ca;;
     border-radius: 8px;
 }
 
@@ -90,15 +92,23 @@ form > .resp {
     background-color: #63d7d3ca;
     padding: 4px 11px 4px 4px;
     border-radius: 8px;
+    width: 87%;
+    height: 32px;
+    /* margin: auto; */
 }
 
 #box {
     background-color: #49a09d;
+    color: white;
     border-radius: 8px;
     margin: auto; 
     margin-bottom: 5px;
     height: 35px;
     width: 100% ;
+}
+
+#box:hover {
+    background-color: #285c5a;
 }
 
 #senha {
@@ -110,6 +120,10 @@ form > .resp {
     height: 35px;
     width: 100% ;
     display: flex;
+}
+
+#senha:hover {
+    background-color: #5bcdc9;
 }
 
 #esq {
