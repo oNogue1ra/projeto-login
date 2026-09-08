@@ -13,7 +13,7 @@
 
 body, main {
     background-image: linear-gradient(#5f2c82, #49a09d);
-    min-height: 98vh;
+    min-height: 100vh;
     min-width: 97vw;
 }
 main {
@@ -25,7 +25,7 @@ section  {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border: 1px solid black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.514);
     border-radius: 20px;
     height: 515px;
     width: 250px;
@@ -43,67 +43,77 @@ div#imagem {
 
 div#formulario {
     background-color: white;
-    /* border: 1px solid black; */
     height: 60%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 4px;
+    padding: 8px 10px 4px 10px;
 }
 
 div#formulario > h1 {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
-div#formulario > p {
-    text-align: center;
+#texto {
+    text-align: left;
+    font-size: 12px;
 }
 
 form > .resp {
     background-color: #5f2c82;
-    /* display: flex; */
     align-items: center;
-    border: 1px solid black;
     border-radius: 8px;
     padding: 2px;
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 35px;
+    height: 40px;
     width: 100% ;
-    /* justify-content: center; */
-    /* flex-direction: row; */
-    /* align-items: center; */
+}
+
+.pezao {
+    display: flex;
 }
 
 #mail {
     color: white;
+    font-size: 33px;
 }
 
 #chave {
     color: white;
+    font-size: 33px;
 }
 
 #iemail {
-    background-color: #63d7d3ca;;
+    background-color: #63d7d3ca;
+    padding: 2px 2px 2px 6px;
+    margin: 0px 0px 0px 2px;
+    border: none;
     border-radius: 8px;
+    width: 85%;
+    height: 36px;
 }
 
 #isenha {
     background-color: #63d7d3ca;
-    padding: 4px 11px 4px 4px;
+    padding: 2px 2px 2px 6px;
+    margin: 0px 0px 0px 2px;
+    border: none;
     border-radius: 8px;
-    width: 87%;
-    height: 32px;
-    /* margin: auto; */
+    width: 85%;
+    height: 36px;
 }
 
 #box {
     background-color: #49a09d;
     color: white;
     border-radius: 8px;
+    border: none;
     margin: auto; 
     margin-bottom: 5px;
-    height: 35px;
+    height: 40px;
     width: 100% ;
 }
 
@@ -117,7 +127,7 @@ form > .resp {
     border-radius: 8px;
     margin: auto; 
     margin-bottom: 5px;
-    height: 35px;
+    height: 40px;
     width: 100% ;
     display: flex;
 }
