@@ -6,6 +6,8 @@
     <title>Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vpn_key" />
+
+    
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -20,13 +22,13 @@
                     <div class="resp">
                         
                         <p class="pezao">
-                            <span id="mail" class="material-symbols-outlined"> mail </span>
-                            <input type="email"  name="email" id="iemail" placeholder="seu e-mail"></p>
+                            <label for="iemail"><span id="mail" class="material-symbols-outlined"> mail </span></label>
+                            <input type="email"  name="email" id="iemail" placeholder="seu e-mail" required min length="8" max length="12" autocomplete="email"></p>
                     </div>
 
                     <div class="resp">
                         <p class="pezao" ><label for="isenha"><span id="chave"  class="material-symbols-outlined"> vpn_key</span></label> 
-                    <input type="password"  name="senha" id="isenha" placeholder="sua senha"></p>
+                    <input type="password"  name="senha" id="isenha" placeholder="sua senha" required min length="8" max length="12" autocomplete="current-password"></p>
                     </div>
 
                     <input type="submit" id="box" class="resp" value="Entrar">               
