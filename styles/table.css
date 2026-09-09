@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body, main {
+    background-image: linear-gradient( #5f2c82, #49a09d) ;
+    min-height: 100vh;
+    min-width: 97vw;
+}
+
+section {
+    display: flex;
+    width: 80vw;
+    height: 285px;
+}
+
+div#imagem {
+    width: 30%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+div#formulario {
+    width: 70%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+#iemail {
+    margin: 0px 0px 0px 6px;
+    width: 95%;
+    height: 36px;
+}
+
+#isenha {
+    margin: 0px 0px 0px 6px;
+    width: 95%;
+    height: 36px;
+}
+

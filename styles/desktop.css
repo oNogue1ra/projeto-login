@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body, main {
+    background-image: linear-gradient( #5f2c82, #49a09d) ;
+    min-height: 100vh;
+    min-width: 97vw;
+}
+
+section {
+    position: absolute;
+    display: flex;
+    width: 950px;
+    height: 350px;
+}
+
+div#formulario{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+div#imagem {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+}
+
+#texto {
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 20px 0px ;
+}
+
+#iemail {
+    margin: 0px 0px 0px 6px;
+    width: 95%;
+    height: 36px;
+}
+
+#isenha {
+    margin: 0px 0px 0px 6px;
+    width: 95%;
+    height: 36px;
+}
+
